@@ -116,9 +116,10 @@ body {
     inset: 0;
     clip-path: url(#svgHeartMask);
     -webkit-clip-path: url(#svgHeartMask);
-    background: #020306;
+    background: #ffffff; /* Change this to #ffffff for a white background behind your PNG */
     transform: translateZ(10px);
-} 
+}
+
 
 .family-photo {
     width: 100%;
