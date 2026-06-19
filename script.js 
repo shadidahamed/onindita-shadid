@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // --- THREE.JS ENGINE CONFIGURATION ---
     const container = document.getElementById('three-canvas');
-    let width = container.clientWidth;
-    let height = container.clientHeight; 
+    let width = container.clientWidth || 400; // Sensible fallbacks if runtime dimensions take a split second
+    let height = container.clientHeight || 400; 
 
     const scene = new THREE.Scene();
 
